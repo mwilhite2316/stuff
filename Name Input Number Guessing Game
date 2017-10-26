@@ -5,8 +5,8 @@ number3 = 24
 name = input("What is your name? ")
 guess = input("What is your guess? ")
 
-if guess == number1 or number2 or number3:
-    print("You win, " + name + "!")
+if guess == number1 or guess == number2 or guess == number3:
+    print("You win, {}!".format(name))
     
 else:
-    print("You are a loser, " + name + "!")
+    print("You are a loser, {}!".format(name))
