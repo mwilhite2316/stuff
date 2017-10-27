@@ -3,7 +3,7 @@ number2 = 16
 number3 = 24
 
 name = input("What is your name? ")
-guess = input("What is your guess? ")
+guess = int(input("What is your guess? "))
 
 if guess == number1 or guess == number2 or guess == number3:
     print("You win, {}!".format(name))
